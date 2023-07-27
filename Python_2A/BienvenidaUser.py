@@ -10,6 +10,8 @@ user3 = "Sergio"
 invitado = input("Hola, pon tu nombre!: ")
 
 # Comprobamos el nombre y imprimimos por pantalla
+
+# No se como prevenir error si el nombre es en minusculas, mayusculas, con punto y con almohadilla!
 if invitado == user1:
     print("Buenas dias ", user1, ", te doy un saludo!")
 elif invitado == user2:

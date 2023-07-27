@@ -3,6 +3,8 @@
 # 2.Dos simbolos especiales diferentes(Solo * o #)
 # 3.Comprobar si es una contraseña segura y imprimir por pantalla
 
+
+# no se que hacer
 password = input("Crea una contraseña, debe tener 1 vocal en minuscula, dos simbolos * o #, :")
 
 
