@@ -3,12 +3,13 @@
 # *(Si el usuario no es ninguno de los tres, se le de un saludo generico)
 # !Prevenir error si el nombre es en minusculas, mayusculas, con punto y con almohadilla!
 
+# Creamos variables
 user1 = "Alejandro"
 user2 = "Naomi"
 user3 = "Sergio"
 invitado = input("Hola, pon tu nombre!: ")
 
-
+# Comprobamos el nombre y imprimimos por pantalla
 if invitado == user1:
     print("Buenas dias ", user1, ", te doy un saludo!")
 elif invitado == user2:
