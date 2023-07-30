@@ -16,3 +16,5 @@ elif num3 + num2 == num1:
     print("La suma del numero:",num3,"y",num2,"es igual a numero:", num1)
 elif num3 + num1 == num2:
     print("La suma del numero:",num3,"y",num1,"es igual a numero:", num2)
+else:
+    print("No hay suma de dos numeros introducidos")
