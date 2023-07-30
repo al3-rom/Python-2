@@ -1,5 +1,5 @@
 # El gobierno quere otorgar becas de excelencia a los estudiantes con un minimo de un 8 de media
-# PAra acceder a la beca, el estudiante debe tener entre 17 y 21 años
+# Para acceder a la beca, el estudiante debe tener entre 17 y 21 años
 # 1.Pedir el nombre, la edad y la nota media del estudiante e indicar si puede optar a la beca o no
 
 # Pedimos el nombre
