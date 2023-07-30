@@ -2,19 +2,17 @@
 
 # Pedimos 3 numeros diferentes
 
-num1 = int(input("Pon un numero: "))
-num2 = int(input("Otro numero diferente: "))
-num3 = int(input("Otro numero diferente: "))
+x = int(input("Pon un numero: "))
+y = int(input("Otro numero diferente: "))
+z = int(input("Otro numero diferente: "))
 
 # Miramos si algunos de ellos es la suma de los otros dos e indicamos
 
-if num1 + num2 == num3:
-    print("La suma del numero:",num1,"y",num2,"es igual a numero:", num3)
-elif num1 + num3 == num2:
-    print("La suma del numero:",num1,"y",num3,"es igual a numero:", num2)
-elif num3 + num2 == num1:
-    print("La suma del numero:",num3,"y",num2,"es igual a numero:", num1)
-elif num3 + num1 == num2:
-    print("La suma del numero:",num3,"y",num1,"es igual a numero:", num2)
+if x==y+z:
+    print("La suma del numero:",y,"y",z,"es igual a numero:", x)
+elif y==x+z:
+    print("La suma del numero:",x,"y",z,"es igual a numero:", y)
+elif z==x+y:
+    print("La suma del numero:",x,"y",y,"es igual a numero:", z)
 else:
-    print("No hay suma de dos numeros introducidos")
+    print("No hay suma de los numeros introducidos")

@@ -6,7 +6,7 @@ num2 = int(input("Otro numero diferente: "))
 num3 = int(input("Otro numero diferente: "))
 num4 = int(input("Otro numero diferente: "))
 
-# Comprobamos el mayor e imprimimos 
+# Comprobamos el mayor e imprimimos !
 
 if num1 > num2 and num1 > num3 and num1 > num4:
     print("El numero mayor es: ", num1)
