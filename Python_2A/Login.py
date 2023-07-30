@@ -12,15 +12,14 @@ passUser = input("Pon la contraseña del usuario: ")
  # Creamos la funcion, para comprobar si la contraseña es correcta o no
 
 if passUser == password1:
- print("!Bienvenida Alejandro!")
-
+  print("!Bienvenido Alejandro!")
 else:
   print("Incorrecto! Tienes segunda oportunidad! ")
-  passUser=input()
-  
-
-if passUser != password1:
-  print("!Error al entrar a la cuenta del usuario!")
+  passUser=input("Pon la contraseña del usuario: ")
+if passUser == password1:
+  print("!Bienvenido Alejandro!")
 else:
-  #No se como parar el codigo
-  print("Bienvenida Alejandro!!")
+  print("Error, la contraseña no es correcta!")
+  print("Cerramos el sistema!")
+
+

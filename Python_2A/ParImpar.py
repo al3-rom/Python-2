@@ -4,6 +4,7 @@
 # Pedimos numeros
 num1 = int(input("Pon un numero: "))
 num2 = int(input("Potencia para este numero: "))
+
 # Elevamos
 elev = (num1 * num2)
 

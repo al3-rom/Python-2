@@ -4,22 +4,27 @@
 # !Prevenir error si el nombre es en minusculas, mayusculas, con punto y con almohadilla!
 
 # Creamos variables
-user1 = "Alejandro"
-user2 = "Naomi"
-user3 = "Sergio"
+user1 = "alejandro"
+user2 = "naomi"
+user3 = "sergio"
 invitado = input("Hola, pon tu nombre!: ")
 
-# Comprobamos el nombre y imprimimos por pantalla
+# Prevenimos error si el si el nombre es en minusculas o mayusculas, con punto o con almohadilla!
+invitado = invitado.lower()
+invitado = invitado.replace(".", "")
+invitado = invitado.replace("#", "")
 
-# No se como prevenir error si el nombre es en minusculas, mayusculas, con punto y con almohadilla!
+
+
+# Comprobamos el nombre y imprimimos por pantalla
 if invitado == user1:
-    print("Buenas dias ", user1, ", te doy un saludo!")
+    print("Buenas dias ", user1.title(), ", te doy un saludo!")
 elif invitado == user2:
-   print("Buenas dias ", user2, ", te doy un saludo!")
+   print("Buenas dias ", user2.title(), ", te doy un saludo!")
 elif invitado == user3:
-   print("Buenas dias ", user3, ", te doy un saludo!")
+   print("Buenas dias ", user3.title(), ", te doy un saludo!")
 else:
-   print("Buenas dias", invitado,"!")
+   print("Buenas dias", invitado.title(),"!")
 
 
 
