@@ -8,9 +8,29 @@
 
 # Preguntamos si es chica o chico y su nombre
 
-genero = input("Eres chica o chico?: ")
+genero = input("Ingresa tu genero (chica / chico): ")
 nombre = input("Dime tu nombre: ")
-primeraLetra = nombre[0]
+nombres_chicas_A = "EHIJKLM"
+nombres_chicos_A = "ABCDEFGHRSTUVWXYZ"
 
-# Mostramos el grupo que le corresponde
+# Elegimos el grupo que corresponde
+# chica
+## E hasta M --> A
+## El resto --> B
 
+#chico
+## A hasta H y R hasta Z --> A
+## El resto --> B
+
+if genero.lower() == "chica":
+    if nombre[0].upper() in nombres_chicas_A:
+        print("Tu grupo es el A")
+    else:
+        print("Tu grupo es el B")
+elif genero.lower() == "chico":
+    if nombres_chicos_A[0].upper() in nombres_chicos_A:
+        print("Tu grupo es el A")
+    else:
+        print("Tu grupo es el B")
+else:
+    print("Introduzca bien tu genero!")

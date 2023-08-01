@@ -18,14 +18,16 @@
 
 hamburguesaUser = input( "Que hamburguesa te apetece? Tenemos clasica y vegana!: ")
 
-if hamburguesaUser == "clasica":
+if hamburguesaUser.lower() == "clasica":
    Ingredientes = input("Ingredientes exta disponibles para clasica son: -queso, -bacon y huevo, escoge un ingrediente!: ")
-elif hamburguesaUser == "vegana":
+elif hamburguesaUser.lower() == "vegana":
   Ingredientes = input("Ingredientes exta para vegana disponibles son: -tofu y -cebolla, escoge un ingrediente!: ")
+else:
+   print("Lo sentimos, tenemos solo estas 2 hamburguesas!")
 
 # Imprimimos que tipo de hamburguesa se ha elegido y cuales son sus ingredientes.
-if hamburguesaUser == "clasica":
+if hamburguesaUser.lower() == "clasica":
     print("Tu tipo de hamburguesa es:", hamburguesaUser, "y tu exta es:", Ingredientes)
-elif hamburguesaUser == "vegana":
+elif hamburguesaUser.lower() == "vegana":
     print("Tu tipo de hamburguesa es:", hamburguesaUser, "y tu exta es:", Ingredientes)
 
